@@ -13,12 +13,14 @@
     <p>Player Red goes first. You can select which column to drop the checker to by using the right or left arrow keys, when you pick the column you can drop a checker with spacebar or the enter key. Player 2 (blue) goes second. Players will alternate turns after playing a checker. </p>
     <p>Play alternates until one player gets four checkers of his or her color in a row.</p>
     <p>The four in a row can be horizontal, vertical, or diagonal.</p>
+    <p id="show-winner"></p>
     <section class="score-container">
-      <!--<p>Red: <span>10</span></p>-->
-      <!--<p>Blue: <span>9</span></p>-->
+      <p>Red: <span id="red-score">0</span></p>
+      <p>Blue: <span id="blue-score">0</span></p>
     </section>
   </section>
   <section class="right-col">
+    
     <canvas id="grid" width="700" height="700"></canvas>
   </section>
 </section>
